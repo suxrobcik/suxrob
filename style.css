@@ -18,13 +18,14 @@ ul {
     width: 100%;
     margin: 0 auto;
     padding: 0 12px;
+    
 }
 
 /* header start */
 
 .header {
     min-height: 100vh;
-    background: cornflowerblue;
+    background: darkred;
 }
 
 .header__nav {
@@ -54,3 +55,9 @@ ul {
 }
 
 /* header end */
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
